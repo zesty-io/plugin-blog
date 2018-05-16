@@ -1,6 +1,27 @@
 type: module
 name: Blog with Authors, Tags, and Categories
 author: Zesty.io
+settings:
+  -
+   name: main_page_limit
+   type: number
+   label: Number of Articles to Show on the Main Page
+   value: 5
+  -
+   name: category_limit
+   type: number
+   label: Number of Categories to show on the side bar
+   value: 7
+  -
+   name: recent_articles_limit
+   type: number
+   label: Number of Recent Articles to show on the side bar
+   value: 3
+  -
+   name: main_page_article_text
+   type: text
+   label: Main Page Article Text
+   value: Recent Articles
 collections:
  -
   name: blog_main_page
