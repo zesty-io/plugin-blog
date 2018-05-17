@@ -1,7 +1,7 @@
-type: module
+type: plugin
 name: Blog with Authors, Tags, and Categories
 author: Zesty.io
-settings:
+settings: # settings for plugins are different than blueprint settings.
   -
    name: main_page_limit
    type: number
