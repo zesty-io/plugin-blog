@@ -45,6 +45,7 @@ collections:
   label: Authors Page
   parent: blog_main_page	  # the collection's parent, this organizes config and the navigation layout. For routing, Page parents are set in the contents yaml
   view: views/blog-authors-page.tpl
+  type: templateset
   content: contents/blog-authors.yaml
   fields:
    -
@@ -62,6 +63,7 @@ collections:
   label: Authors
   parent: blog_authors_page	  # the collection's parent, this organizes config and the navigation layout. For routing, Page parents are set in the contents yaml
   view: views/blog-author.tpl
+  type: templateset
   content: contents/blog-authors.yaml
   fields:
    -
