@@ -70,7 +70,7 @@ collections:
     options:
      required: true
      list: true
-     sort_table: true
+     sortTable: true
    -
     name: title
     label: Author Title
