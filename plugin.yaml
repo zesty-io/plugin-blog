@@ -27,6 +27,7 @@ collections:
   name: blog_main_page
   label: Blog Main Page
   view: views/blog-main-page.tpl
+  type: templateset
   content: contents/blog-page.yaml
   fields:
    -
