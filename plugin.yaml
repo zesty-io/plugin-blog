@@ -22,7 +22,7 @@ settings: # settings for plugins are different than blueprint settings.
    type: text
    label: Main Page Article Text
    value: Recent Articles
-collections:
+models:
  -
   name: blog_main_page
   label: Blog Main Page
@@ -45,7 +45,7 @@ collections:
  -
   name: blog_authors_page
   label: Authors Page
-  parent: blog_main_page	  # the collection's parent, this organizes config and the navigation layout. For routing, Page parents are set in the contents yaml
+  parent: blog_main_page	  # the model's parent, this organizes config and the navigation layout. For routing, Page parents are set in the contents yaml
   view: views/blog-authors-page.tpl
   type: templateset
   content: contents/blog-authors.yaml
